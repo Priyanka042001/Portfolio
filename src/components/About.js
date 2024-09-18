@@ -9,7 +9,7 @@ function About() {
           {/* Left Column - Profile and Introduction */}
           <div className="profile-section">
             <img 
-              src="/image1.jpeg" 
+              src="/image1.jpg" 
               alt="Profile" 
               className="profile-img"
             />

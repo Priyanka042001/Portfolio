@@ -18,7 +18,7 @@ function Home() {
 
         {/* Image Section */}
         <div className="image-section col-lg-6 text-center">
-          <img src="/image1.jpeg" alt="React Developer" className="img-fluid custom-img" />
+          <img src="/image1.jpg" alt="React Developer" className="img-fluid custom-img" />
         </div>
       </div>
     </section>
