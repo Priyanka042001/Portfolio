@@ -1,0 +1,75 @@
+/* Home.css */
+
+/* General Styles */
+.home {
+    
+    background: url('https://tse3.mm.bing.net/th?id=OIP.hHFRqgPeD9FeaZzTUTXvyAHaEK&pid=Api&P=0&h=180') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+ 
+    padding: 50px 0;
+  }
+  
+  .home-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .text-section {
+    padding: 20px;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .hero-title .highlight {
+    color: #fff; /* Bootstrap primary color or your choice */
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .hero-description {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    color: #fff;
+
+  }
+  
+  .btn-primary {
+    background-color: #51575e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #51575e;
+  }
+  
+  .image-section {
+    padding: 20px;
+  }
+  
+  .custom-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  /* Home.css */
+
+/* Custom Styles */
+.custom-img {
+    max-width: 100%;  /* Responsive width */
+    height: auto;     /* Maintains aspect ratio */
+    max-height: 400px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure image covers the area */
+  }
+  

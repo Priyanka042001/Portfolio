@@ -1,0 +1,103 @@
+/* About.css */
+
+.about {
+    background: url('https://tse3.mm.bing.net/th?id=OIP.hHFRqgPeD9FeaZzTUTXvyAHaEK&pid=Api&P=0&h=180') no-repeat center center fixed;
+    background-size: cover; /* Ensure the image covers the whole section */
+    color: #fff; /* Ensure the text stands out against the background */
+    padding: 60px 0; /* Adjust padding as needed */
+  }
+  
+  .container {
+    max-width: 1200px;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .profile-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #51575e; /* Primary color background */
+    color: #fff; /* White text */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff; /* White border */
+    margin-bottom: 20px;
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .profile-role {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .profile-intro {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .info-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+  
+  .info-item {
+    margin-bottom: 30px;
+  }
+  
+  .info-title {
+    font-size: 1.75rem;
+    color: #51575e; /* Primary color */
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  
+  .info-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-list li {
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #ddd; /* Grey border */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #495057; /* Dark grey text color */
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .info-list li:hover {
+    background-color: #e9ecef; /* Slightly darker grey */
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+    }
+  
+    .profile-section {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
